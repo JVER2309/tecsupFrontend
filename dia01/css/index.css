@@ -1,0 +1,63 @@
+/* SELECTOR DE CLASE bodyMain */
+.bodyMain {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/jver2309/image/upload/v1658815110/aplicaciones-deep-learning-1200x675_axtqqc.jpg);
+    background-position: center;
+    background-size:200%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    display:flex;
+}
+
+.header__image-container {
+    display: flex;
+    max-width: 256px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.header__image {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-container {
+    display: flex;    
+}
+
+.footer-nav__link-list {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav__link-item {
+    display: flex;
+    width: 1.5rem;
+}
+
+.footer-nav__link {
+    display: flex;
+    width: 1.5rem;
+}
+
+.footer-nav__link-image {
+    width: 100%;
+    border-radius: 50%;
+}
