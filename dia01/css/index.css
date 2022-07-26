@@ -49,11 +49,12 @@
 
 .footer-nav__link-item {
     display: flex;
-    width: 1.5rem;
+    /* width: 1.5rem; */
 }
 
+/* 1rem <> 16px */
 .footer-nav__link {
-    display: flex;
+    /* display: flex; */
     width: 1.5rem;
 }
 
